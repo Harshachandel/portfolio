@@ -1,0 +1,235 @@
+/* Navbar styling */
+
+   *{
+    color: white;
+    }
+    
+  body{
+    background-color: rgb(11, 11, 32);
+  }
+
+@media(max-width:1190px){
+    .disabled-link-class{
+      display: none;
+    }
+  }
+
+  @media(min-width:980px){
+    .nav-item-home{
+        padding-left: 90px;
+    }
+  }
+
+  @media(max-width:990px){
+   .nav-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .nav-item-home{
+   padding-left: 0px;
+   }
+  }
+
+  /* First intro part styling */
+
+    .main-intro-holder-div{
+    box-shadow: 0px 20px 60px rgb(2, 64, 179);
+    }
+
+    .fa-brands{
+      font-size: 25px;
+    }
+
+    .icon-div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      border: 1px solid snow;
+    }
+
+    .icon-div:hover{
+      border: 2px solid snow;
+      box-shadow: 0px 7px 10px rgb(94, 116, 156);
+    }
+
+    
+    .intro-button-for:hover{
+        box-shadow: 0px 10px 20px rgb(20, 128, 235);
+    }
+
+    @media(min-width:610px){
+        .userimage{
+          width: 430px;
+          height: 430px;
+          
+        }
+      }
+
+      
+      @media(max-width:609px){
+        .userimage{
+          width: 90%;
+          /* height: 430px; */
+        }
+    }
+
+    @media(max-width:440px){
+        .intro-title-h1{
+            font-size: 2rem;
+            text-wrap: wrap;
+        }
+        .intro-title-h2{
+            font-size: 1.5rem;
+        }
+        .infro-para{
+            font-size: 1rem;
+            text-wrap: wrap;
+        }
+       
+    }
+
+    /* Skills section styling */
+
+    .card{
+        background-color: rgb(13, 11, 37);
+        border-radius: 30px;
+    }
+
+    
+    .card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 150px;
+        box-shadow: 0px 2px 10px blue;
+        margin-bottom: 50px;
+        margin-top: 70px;
+        border: none;
+        padding: 10px;
+      }
+    
+
+      .card1{
+        box-shadow: 0px 10px 25px rgb(238, 64, 180);
+        animation: card-for-skill1 4s ease-in infinite;
+        
+      }
+
+      @keyframes card-for-skill1{
+        0%{
+          transform: translateY(0px);
+        }
+        20%{
+          transform: translateY(20px);
+        }
+        50%{
+          transform: translateY(-10px);
+        }
+       }
+      
+      .card2{
+        box-shadow: 0px 10px 25px rgb(18, 169, 220);
+        animation: card-for-skill2 4s ease-in infinite;
+      }
+
+      @keyframes card-for-skill2{
+        0%{
+          transform: translateY(0px);
+        }
+        20%{
+          transform: translateY(-10px);
+        }
+        50%{
+          transform: translateY(20px);
+        }
+       }
+      
+      .card3{
+        box-shadow: 0px 10px 25px rgba(84, 156, 40, 0.903);
+        animation: card-for-skill1 4s ease-in infinite;
+      }
+
+      @keyframes card-for-skill1{
+        0%{
+          transform: translateY(0px);
+        }
+        20%{
+          transform: translateY(20px);
+        }
+        50%{
+          transform: translateY(-10px);
+        }
+       }
+
+      .card4{
+        box-shadow: 0px 10px 25px rgba(39, 138, 123, 0.903);
+        animation: card-for-skill4 4s ease-in infinite;
+      }
+
+      @keyframes card-for-skill4{
+        0%{
+          transform: translateX(0px);
+        }
+        20%{
+          transform: translateX(5px);
+        }
+        50%{
+          transform: translateX(-20px);
+        }
+       }
+
+      .card5{
+        box-shadow: 0px 10px 25px rgb(61, 183, 227);
+        animation: card-for-skill5 4s ease-in infinite;
+      }
+
+      @keyframes card-for-skill5{
+        0%{
+          transform: translateX(0px);
+        }
+        20%{
+          transform: translateX(-5px);
+        }
+        50%{
+          transform: translateX(20px);
+        }
+       }
+
+    /* styling for contact form  */
+    
+         /* Change placeholder text color to white */
+         ::placeholder {
+            color: rgb(64, 56, 56) !important;
+        }
+
+        /* Optional: Make sure the background of the input is consistent */
+        input::placeholder {
+            color: rgb(64, 56, 56) !important;
+        }
+
+        .form-control{
+          background-color: rgb(11, 11, 32);
+        }
+
+        .div-contact-detail{
+          margin-top: 50px;
+          margin-bottom: 50px;
+          display: flex;
+          justify-content: center;
+        }
+
+        .btn-submit{
+          box-shadow: 0px 5px 25px 5px rgb(68, 137, 249);
+        }
+    
+        input{
+          box-shadow: 0px 10px 20px  rgb(39, 111, 228);
+        }
+
+
+

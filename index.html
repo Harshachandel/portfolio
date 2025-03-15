@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <!-- Css External Link -->
+
+    <link rel="stylesheet" href="./style.css">
+  
+    <!-- Font icon link  -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google font link -->
+ 
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Cedarville+Cursive&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Ga+Maamli&family=Permanent+Marker&family=Playwrite+AU+SA:wght@100..400&family=Playwrite+CO+Guides&family=Playwrite+IN:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap link -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+
+</head>
+  <body style="background-color: rgb(11, 11, 32);">
+
+  <!-- Javascript link by boostrap -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!--Navbar section  -->
+    <section class="navbar-section">
+  <nav class="navbar navbar-expand-lg pt-4 ps-2 ">
+    <div class="container p-3" style="border-radius: 20px; box-shadow: 0px 10px 20px rgb(0, 119, 255); display: flex; justify-content: center;background-color:  rgb(11, 11, 32)" >
+      <a class="navbar-brand text-white" href="#" style="margin-left: 10%;">Welcome to my portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav" style="display: flex; justify-content: center; gap: 100px;">
+          <li class="nav-item nav-item-home" >
+            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-white" href="#">Qualification</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Contact</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link disabled disabled-link-class" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    </section>
+
+    <!-- First intro part -->
+    <section class="intro-section">
+      <div class="main-intro-holder-div" style="display: flex; justify-content: center; align-items: center; padding-top: 80px; gap: 10%; line-height: 25px; flex-wrap: wrap; border-radius: 40px; margin: 5%; padding: 20px;">
+
+        <div class="intro-text-part" >
+          
+          <h1 class="intro-title-h1">Hi, I'm Harsha Chandel</h1>
+          <h2 class="intro-title-h2">Fullstack Developer</h2>
+          <p class="infro-para" style="padding-top: 25px;">As a Full Stack Developer, I specialize in bridging the gap between user experiences <br> and powerful back-end systems. My expertise spans both front-end technologies, such as HTML, CSS, <br> JavaScript, and frameworks like React, as well as back-end architectures, <br>including Node.js, Express, and database systems like MongoDB and MySQL.</p>
+
+          <p style="padding-top: 20px;">With a blend of creativity and technical acumen, my goal is to develop applications that <br> are not just functional but also leave a lasting impression.</p>
+
+          <button class="btn btn-primary intro-button-for" style="width: 100px; margin: 20px;">Hire Me</button>
+          <button class="btn border-3 border-primary intro-button-for" style="width: 100px; margin: 20px; color: white;">Let's Talk</button>
+
+         <div style="padding: 25px; display: flex; justify-content: start; gap: 20px;">
+          <div class="icon-div">
+            <i class="fa-brands fa-facebook"></i>
+          </div>
+          <div class="icon-div">
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div class="icon-div">
+          <i class="fa-brands fa-linkedin"></i>
+
+          </div>
+          <div class="icon-div">
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+
+         </div>
+
+        </div>
+
+        <div class="intro-image-part" style="text-align: center;">
+          <img src="./Images/girl option 4.jpg" alt="" height="450px" class="userimage">
+        </div>
+      
+      </div>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills-section">
+      <div class="skill-main-div">
+        <div class="skills-heading-div d-flex " style="margin-left: 90px; margin-top: 130px;">
+          <h1 style=" border-bottom: 2px solid blue; display: flex;">Skills</h1>
+        </div>
+        <div class="skills-heading-div2">
+          <h4 style=" margin-left: 90px;">There are the technologies I've worked with</h4>
+        </div>
+        <div class="card-main-holder-div" style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;">
+          <div class="card card1 " style="background-color: rgb(13, 11, 37);  border-radius: 30px;">
+            <img src="./Images/skill image 2 .png" alt="" width="100px" height="80px">
+            <p style="color: rgb(255, 0, 238); font-size: 20px;">GraphQL</p>
+          </div>
+          <div class="card card2 " style="background-color: rgb(13, 11, 37);  border-radius: 30px;">
+            <img src="./Images/skill image.png" alt="" width="100px" height="80px">
+            <p  style="color: rgb(0, 208, 255); font-size: 20px;">React</p>
+          </div>
+          <div class="card card3 " style="background-color: rgb(13, 11, 37);  border-radius: 30px;">
+            <img src="./Images/skill image 4 .png" alt="" width="100px" height="80px">
+            <p  style="color: rgb(122, 174, 72); font-size: 20px;">Node JS</p>
+          </div>
+        </div>
+
+        <div class="card-main-holder-div2"style="display: flex; justify-content: center; gap: 40px; margin-bottom: 70px; flex-wrap: wrap;">
+          <div class="card card4 " style="background-color: rgb(13, 11, 37);  border-radius: 30px;">
+            <img src="./Images/skill image 6 .png" alt="" width="100px" height="80px">
+            <p  style="color: rgb(40, 126, 112); font-size: 20px;">Tailwind</p>
+          </div>
+          <div class="card card5 " style="background-color: rgb(13, 11, 37);  border-radius: 30px;">
+            <img src="./Images/skill image 8 .png" alt="" width="100px" height="80px">
+            <p  style="color: rgb(0, 136, 255); font-size: 20px;">Graph Protocol</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+     <!-- Contact Form section -->
+    <section class="contact-new-section">
+
+      <div class="main-contact-form-heading-div" style="display: flex; margin-left: 85px; ">
+        <h1 style="border-bottom: 4px solid rgb(22, 15, 235);">Contact Form</h1>
+    </div>
+    
+      <div class="">
+        <form class="form-control mt-5  w-50 mx-auto " style="border: none; background-color: rgb(11, 11, 32);">
+    
+            <div class="mb-5">
+                <label class="form-label">Enter Your Name : </label>
+                <input type="text" class="form-control" placeholder="Narendra" aria-describedby="emailHelp"
+                    style="background-color: rgb(11, 11, 32);">
+    
+            </div>
+            <div class="mb-5">
+                <label class="form-label">Enter Your Surname : </label>
+                <input type="text" class="form-control" placeholder="Modi" aria-describedby="emailHelp"
+                style="background-color: rgb(11, 11, 32);">
+    
+            </div>
+            <div class="mb-5">
+                <label for="exampleInputEmail1" class="form-label">Email Address : </label>
+                <input type="email" class="form-control " placeholder="modixyz@gmail.com" id="exampleInputEmail1"
+                    aria-describedby="emailHelp" style="background-color: rgb(11, 11, 32);">
+                <div id="emailHelp" class="form-text text-white" >We'll never share your email with
+                    anyone else.</div>
+            </div>
+            <div class="mb-5">
+                <label for="exampleInputPassword1" class="form-label">Password : </label>
+                <input type="password" class="form-control" id="exampleInputPassword1" style="background-color: rgb(11, 11, 32);">
+            </div>
+           
+            <div class="div-contact-detail">
+              <button type="submit" class="btn btn-primary btn-submit" style="width: 200px;">Submit</button>
+          </div>
+    
+    </div>
+    
+    </section>
+
+    <!-- footer section  -->
+    <section class="footer-section" style="display: flex; justify-content: center; padding-bottom: 100px; padding-top: 100px;">
+      <footer style="background-color: rgb(15, 15, 37); color: white; padding: 2rem 0; font-family: Arial, sans-serif; width: 90%; border-radius: 20px; box-shadow: 0px 20px 60px rgb(20, 128, 235)">
+          <div style="max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem;">
+            <!-- About Section -->
+            <div>
+              <h2 style="font-size: 1.25rem; font-weight: 600;  padding-bottom: 20px; text-align: center;">About Me</h2>
+              <p style="font-size: 1rem; margin-top: 0.5rem; text-align: center;">I provide the best solutions for your business needs.</p>
+            </div>
+        
+            <!-- Quick Links -->
+            <div>
+              <h2 style="font-size: 1.25rem; font-weight: 600; padding-bottom: 20px; text-align: center;">Quick Links</h2>
+              <ul style="margin-top: 0.5rem; list-style: none; padding: 0; text-align: center;" >
+                <li><a href="#" style="text-decoration: none; color: white; display: block; margin: 0.5rem 0; font-size: 1rem;">Back to top</a></li>
+                <li><a href="#" style="text-decoration: none; color: white; display: block; margin: 0.5rem 0; font-size: 1rem;">About</a></li>
+                <li><a href="#" style="text-decoration: none; color: white; display: block; margin: 0.5rem 0; font-size: 1rem;">Services</a></li>
+                <li><a href="#" style="text-decoration: none; color: white; display: block; margin: 0.5rem 0; font-size: 1rem;">Contact</a></li>
+              </ul>
+            </div>
+        
+            <!-- Services -->
+            <div>
+              <h2 style="font-size: 1.25rem; font-weight: 600;  padding-bottom: 20px; text-align: center;">Services</h2>
+              <ul style="margin-top: 0.5rem; list-style: none; padding: 0; text-align: center;">
+                <li><a href="#" style="text-decoration: none; color: white; display: block; margin: 0.5rem 0; font-size: 1rem;">Web Development</a></li>
+                <li><a href="#" style="text-decoration: none; color: white; display: block; margin: 0.5rem 0; font-size: 1rem;">Frontend development</a></li>
+                <li><a href="#" style="text-decoration: none; color: white; display: block; margin: 0.5rem 0; font-size: 1rem;">UI & UX Designer</a></li>
+                <li><a href="#" style="text-decoration: none; color: white; display: block; margin: 0.5rem 0; font-size: 1rem;">Application Developer</a></li>
+              </ul>
+            </div>
+        
+            <!-- Contact Info -->
+            <div>
+              <h2 style="font-size: 1.25rem; font-weight: 600;  padding-bottom: 20px; text-align: center;">Contact Us</h2>
+              <p style="font-size: 1rem; margin-top: 0.5rem; text-align: center;">Email: info@example.com</p>
+              <p style="font-size: 1rem; text-align: center;">Phone: +123 456 7890</p>
+              <p style="font-size: 1rem; text-align: center;">Address: 123 Main St, City, Country</p>
+            </div>
+          </div>
+        
+          <!-- Copyright Section -->
+          <div style="margin-top: 2rem; text-align: center; font-size: 1rem; border-top: 1px solid #4a5568; padding-top: 1rem;">
+            <p>&copy; 2025 Harsha's Portfolio. All Rights Reserved.</p>
+          </div>
+        </footer>
+    </section>
+
+  </body>
+</html>
