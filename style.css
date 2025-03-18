@@ -204,12 +204,16 @@
     
          /* Change placeholder text color to white */
          ::placeholder {
-            color: rgb(64, 56, 56) !important;
+            color: rgb(128, 111, 111) !important;
         }
 
         /* Optional: Make sure the background of the input is consistent */
         input::placeholder {
-            color: rgb(64, 56, 56) !important;
+            color: rgb(128, 111, 111) !important;
+        }
+
+        input:focus{
+          color: aliceblue !important;
         }
 
         .form-control{
